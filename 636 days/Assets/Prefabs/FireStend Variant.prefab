@@ -193,13 +193,21 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 198446459034437748, guid: 83f5e574addfb424ebd95bbb8ff8b080, type: 3}
       propertyPath: InitialModule.startLifetime.scalar
-      value: 0.81
+      value: 0.2
       objectReference: {fileID: 0}
     - target: {fileID: 198446459034437748, guid: 83f5e574addfb424ebd95bbb8ff8b080, type: 3}
       propertyPath: InitialModule.startLifetime.minScalar
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 199130536311000558, guid: 83f5e574addfb424ebd95bbb8ff8b080, type: 3}
+      propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 199252912288624228, guid: 83f5e574addfb424ebd95bbb8ff8b080, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 199828982188788410, guid: 83f5e574addfb424ebd95bbb8ff8b080, type: 3}
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
