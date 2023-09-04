@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50554b31021cc114193a076e41cbcec1, type: 3}
+  m_Name: FishSO
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1242877940203188687, guid: 1d3b6b034f5b3704f98582ff2bc1717e, type: 3}
+  afterInteract: {fileID: 5968684347839382583, guid: c6bb325080dbc84458e236a55afb532a, type: 3}
+  interactTime: 3
+  sprite: {fileID: 1982610986, guid: 01676cc6c58b526419ca3ea1c0161cf2, type: 3}
+  _objectName: Fish

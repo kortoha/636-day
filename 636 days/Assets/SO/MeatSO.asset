@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50554b31021cc114193a076e41cbcec1, type: 3}
+  m_Name: MeatSO
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 8078759393100971254, guid: de8aba5a7f142814d8cbe71d1be34f47, type: 3}
+  afterInteract: {fileID: 4515861770271875585, guid: 9dd4c65cd6ce88b40befbf0ca9b83a44, type: 3}
+  interactTime: 4
+  sprite: {fileID: -1514486844, guid: f2a1997987f09e444aa839abb2df1067, type: 3}
+  _objectName: Meat

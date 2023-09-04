@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50554b31021cc114193a076e41cbcec1, type: 3}
+  m_Name: TomatoSO
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 2122006239153350181, guid: efa210d5864699547a0fcc073934cabd, type: 3}
+  afterInteract: {fileID: 7792731850319900212, guid: 023f66e35ec368c44aabcd786cc4bb24, type: 3}
+  interactTime: 2
+  sprite: {fileID: 300866290, guid: f2f9fcf01a7aec541a0e3c9be4d4b5d9, type: 3}
+  _objectName: Tomato

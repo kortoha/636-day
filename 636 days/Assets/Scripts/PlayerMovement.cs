@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.InputSystem;
+﻿using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -20,7 +18,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
-        _animator = GetComponent<Animator>();
         _input = new PlayerInput();
 
         _input.Player.Enable();
@@ -34,7 +31,7 @@ public class PlayerMovement : MonoBehaviour
         {
             _moveInput = Vector2.zero;
             _isStickHeld = false;
-            _worldMoveDirection = Vector3.zero; // Сбрасываем направление движения при отпускании стика
+            _worldMoveDirection = Vector3.zero; 
         };
 
         _rigidBody = GetComponent<Rigidbody>();
@@ -62,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (_isStickHeld && moveDirection != Vector3.zero)
         {
-            _worldMoveDirection = moveDirection; // Сохраняем направление движения в мировых координатах
+            _worldMoveDirection = moveDirection; 
         }
 
         Vector3 targetVelocity = _worldMoveDirection * _moveSpeed;
@@ -71,7 +68,6 @@ public class PlayerMovement : MonoBehaviour
         velocityChange.y = 0;
         _rigidBody.AddForce(velocityChange, ForceMode.VelocityChange);
 
-        // Убираем вращение персонажа
         if (_worldMoveDirection != Vector3.zero)
         {
             Quaternion rotation = Quaternion.LookRotation(_worldMoveDirection);

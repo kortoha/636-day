@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50554b31021cc114193a076e41cbcec1, type: 3}
+  m_Name: BredSO
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 9060902980125781576, guid: 452b59f8e7808e34dba971a3995cb2fe, type: 3}
+  afterInteract: {fileID: 8370702785312415821, guid: 1ce073d2f8034184a90e2129baadb42b, type: 3}
+  interactTime: 3
+  sprite: {fileID: -1603979934, guid: 079b827bcfb7f96448291f56d912a54c, type: 3}
+  _objectName: Bread

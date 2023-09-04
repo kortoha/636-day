@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50554b31021cc114193a076e41cbcec1, type: 3}
+  m_Name: CabbageSO
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7068406116501178934, guid: 1f373c5b16514c64a839593bc8a20fe7, type: 3}
+  afterInteract: {fileID: 3368942613577175997, guid: b185f38fdebeecd4a8a71f853becfda3, type: 3}
+  interactTime: 4
+  sprite: {fileID: 1874752997, guid: 6e9e0c3fb9eb6d947b11c54f5d35cd0d, type: 3}
+  _objectName: Cabbage

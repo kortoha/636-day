@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50554b31021cc114193a076e41cbcec1, type: 3}
+  m_Name: PotatoSO
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 6142014919378706560, guid: 7d1c3e5aab8a5e141be018c1dd918e62, type: 3}
+  afterInteract: {fileID: 1700387419240046729, guid: cdd7c69fd96bf8d4e882bbd1f92a7ebb, type: 3}
+  interactTime: 2
+  sprite: {fileID: 536532648, guid: e1f33b8631370e34ca9af93b26188902, type: 3}
+  _objectName: Potato

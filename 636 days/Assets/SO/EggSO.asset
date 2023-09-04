@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50554b31021cc114193a076e41cbcec1, type: 3}
+  m_Name: EggSO
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 1232087710791347413, guid: da9ef41562a08514b94742187c4f2293, type: 3}
+  afterInteract: {fileID: 6814158272261978825, guid: 89c4b9ca887aac64d85f122800e056af, type: 3}
+  interactTime: 1
+  sprite: {fileID: 830875827, guid: 7a764d51150a4184dbfe97d4b02de150, type: 3}
+  _objectName: Egg

@@ -4,14 +4,28 @@ using System.Collections;
 
 public class Timer : MonoBehaviour
 {
-    [SerializeField] private int _startingMinutes = 1; 
+    [SerializeField] private int _startingMinutes = 0; 
     [SerializeField] private int _startingSeconds = 0;
     [SerializeField] private GameObject _timer;
+    [SerializeField] private BroomstickRemove _broomstick;
 
     private int _currentMinutes;
     private int _currentSeconds;
     private TMP_Text _text;
     private Coroutine _timerStart;
+
+    public static Timer Instance {get; private set;}
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(gameObject);
+            return;
+        }
+
+        Instance = this;
+    }
 
     private IEnumerator TimerWork()
     {
@@ -35,6 +49,14 @@ public class Timer : MonoBehaviour
             UpdateText();
             yield return new WaitForSeconds(1);
         }
+
+
+        if(_currentMinutes == 0 && _currentSeconds == 0)
+        {
+            _broomstick.gameObject.SetActive(false);
+            _timer.SetActive(false);
+            StopCoroutine(_timerStart);
+        }
     }
 
     private void UpdateText()
@@ -51,5 +73,6 @@ public class Timer : MonoBehaviour
 
         _timer.SetActive(true);
         _timerStart = StartCoroutine(TimerWork());
+        _broomstick.gameObject.SetActive(true);
     }
 }
